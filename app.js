@@ -56,6 +56,6 @@ app.get('/oddtest/:number', (req, res) => {
     }
 })
 
-app.listen(PORT, () => {
+app.listen(PORT,IP_LOCAL, () => {
     console.log(`Example app listening at http://${IP_LOCAL}:${PORT}`)
 })
